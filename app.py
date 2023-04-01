@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 from sklearn.preprocessing import LabelEncoder
 
-st.title("CUSTOMER CHUNK PREDICTION APPLICATION")
+st.title("CUSTOMER CHURN PREDICTION APPLICATION")
 
 st.write('### WELCOME TO THE APPLICATION  ')
 st.write('### Please select the options and add values to the required fields')
