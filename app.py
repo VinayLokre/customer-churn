@@ -1,7 +1,7 @@
-import streamlit as st
-import pandas as pd
-import joblib
-from sklearn.preprocessing import LabelEncoder
+#import streamlit as st
+#import pandas as pd
+#import joblib
+#from sklearn.preprocessing import LabelEncoder
 
 st.title("CUSTOMER CHURN PREDICTION APPLICATION")
 
