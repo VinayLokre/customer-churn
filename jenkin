@@ -4,20 +4,26 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'mvn clean package'
+                withMaven(maven: 'maven'{
+                sh 'mvn clean compile'
+                }
             }
         }
         
         stage('Test') {
             steps {
+               withMaven(maven : 'maven'{
                 sh 'mvn test'
+                }
             }
         }
         
         stage('Deploy') {
             steps {
+               withMaven(maven : 'maven'{
                 sh 'ansible-playbook deploy.yml'
             }
+           }
         }
     }
     
