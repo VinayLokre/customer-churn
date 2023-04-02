@@ -1,17 +1,16 @@
 import streamlit as st
 import pandas as pd
 import joblib
-import pickle
-#from sklearn.preprocessing import LabelEncoder
+from sklearn.preprocessing import LabelEncoder
 
-st.title("CUSTOMER CHUNK PREDICTION APPLICATION")
+# Load the trained model
+model = joblib.load('logmodel.pkl')
+
+st.title("CUSTOMER CHURN PREDICTION APPLICATION")
 
 st.write('### WELCOME TO THE APPLICATION  ')
 st.write('### Please select the options and add values to the required fields')
 
-
-# Load the trained model
-model = joblib.load('logmodel.plk')
 
 # Define the input options
 options = {
