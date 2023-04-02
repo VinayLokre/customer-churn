@@ -11,7 +11,7 @@ st.write('### Please select the options and add values to the required fields')
 
 
 # Load the trained model
-model = joblib.load('C:\\Users\\HP\\Pictures\\chunk\\logmodel.plk')
+model = joblib.load('logmodel.plk')
 
 # Define the input options
 options = {
