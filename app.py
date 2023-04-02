@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 import pickle
-from sklearn.preprocessing import LabelEncoder
+#from sklearn.preprocessing import LabelEncoder
 
 st.title("CUSTOMER CHUNK PREDICTION APPLICATION")
 
