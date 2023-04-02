@@ -11,7 +11,7 @@ st.write('### Please select the options and add values to the required fields')
 
 
 # Load the trained model
-with open('C:/Users/HP/Pictures/chunk/logmodel.pkl','rb') as f:
+with open('C://Users//HP//Pictures//chunk//logmodel.pkl','rb') as f:
     model = pickle.load(f)
 
 # Define the input options
