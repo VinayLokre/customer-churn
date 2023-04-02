@@ -10,7 +10,7 @@ st.write('### Please select the options and add values to the required fields')
 
 
 # Load the trained model
-model = joblib.load("C:\\Users\\Syed Romain\\OneDrive\\Pictures\\Bhinoy\\logmodel.pkl")
+model = joblib.load("C:\\Users\\HP\\Desktop\\Work\\CapStone - Copy\\logmodel.pkl")
  
 
 # Define the input options
